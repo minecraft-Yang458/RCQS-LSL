@@ -5,3 +5,4 @@
 - 程序代码:Mozilla Public License 2.0
 - 引擎：Godot Engine (MIT License)
 > ⚠本游戏为粉丝向同人复刻作品，非官方版本。
+> ⚠️IMPORTANT!重要!⚠️本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!
