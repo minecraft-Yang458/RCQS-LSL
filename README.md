@@ -13,7 +13,8 @@
 使用Godot 4.7.2+GDScript构建
 ## 快速开始
 1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)<br>
-2.导入project文件夹即可开始开发
+2.导入`project`文件夹即可开始开发
+> 如果需要编译游戏还需要下载[导出模板](https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=export_templates.tpz&platform=templates)
 ## 版权信息
 - 原作:小硕道长
 - 复刻版:Yang458
