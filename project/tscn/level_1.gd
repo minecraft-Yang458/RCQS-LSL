@@ -22,12 +22,8 @@ func show_sequence():
 	# 图2：淡入(0.5s) → 停留(1.5s) → 淡出(0.5s)
 	img2.modulate.a = 1.0
 	start_shake()
-	await get_tree().create_timer(2).timeout
-	
-
-	# 黑屏转场 → 切到目标场景
-	
-	#get_tree().change_scene_to_file("res://MainMenu.tscn")  # 改你的路径
+	await get_tree().create_timer(1.5).timeout
+	get_tree().change_scene_to_file("res://tscn/low.tscn")  # 改你的路径
 
 func fade_in(node):
 	var t = create_tween()

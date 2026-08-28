@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://ddfi7toijytcd" path="res://settings.gd" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://b4q5vym0jwg4r" path="res://button_settings.gd" id="3_h2yge"]
 [ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://b.png" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://de15asb86mmoi" path="res://start_game.gd" id="5_lquwl"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jb02w"]
 texture = ExtResource("4_1bvp3")
@@ -19,10 +20,8 @@ grow_vertical = 2
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1329624678]
 layout_mode = 0
-offset_left = 3.0
-offset_top = -1.0
-offset_right = 1155.0
-offset_bottom = 647.0
+offset_right = 1152.0
+offset_bottom = 648.0
 texture = ExtResource("1_ig7tw")
 
 [node name="Button_exit" type="Button" parent="." unique_id=1811609968]
@@ -62,3 +61,12 @@ offset_bottom = 649.0
 theme_override_font_sizes/font_size = 32
 theme_override_styles/normal = SubResource("StyleBoxTexture_jb02w")
 text = "v0.1.0"
+
+[node name="Button_start" type="Button" parent="." unique_id=2019013647]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 190.0
+offset_top = 350.0
+offset_right = 355.0
+offset_bottom = 391.0
+script = ExtResource("5_lquwl")

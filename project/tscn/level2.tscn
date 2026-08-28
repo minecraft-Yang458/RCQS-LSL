@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://dcqwy6wfiwpvf"]
+
+[ext_resource type="Texture2D" uid="uid://b3eu05ijbrb65" path="res://0848EFA01E7B466F717B9F1AA84ED9AA.png" id="1_gimql"]
+
+[node name="Control" type="Control" unique_id=1930086196]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1015759760]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 2.0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_gimql")
+expand_mode = 1

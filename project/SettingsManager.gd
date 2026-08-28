@@ -55,3 +55,31 @@ func apply_settings():
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 	else:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
+# SettingsManager.gd 新增部分
+
+var sfx_player: AudioStreamPlayer
+
+func play_sfx(stream: AudioStream):
+	# 如果播放器不存在或已播放完，就创建新的
+	if not sfx_player or not sfx_player.playing:
+		if not sfx_player:
+			sfx_player = AudioStreamPlayer.new()
+			sfx_player.bus = "Master"
+			add_child(sfx_player)
+		sfx_player.stream = stream
+		sfx_player.pitch_scale = 1.0  # 强制音高正常
+		sfx_player.play()
+	else:
+		# 如果正在播放，则创建临时播放器叠加
+		var temp = AudioStreamPlayer.new()
+		temp.bus = "Master"
+		temp.stream = stream
+		temp.pitch_scale = 1.0
+		add_child(temp)
+		temp.play()
+		temp.finished.connect(temp.queue_free)  # 播完自动移除
+# SettingsManager.gd
+
+func stop_sfx():
+	if sfx_player and sfx_player.playing:
+		sfx_player.stop()

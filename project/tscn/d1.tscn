@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://be4kjj3bj7mmb"]
+
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="1_4s81i"]
+[ext_resource type="Script" uid="uid://bjgya5on1se7p" path="res://tscn/d_1.gd" id="1_bn22b"]
+[ext_resource type="Script" uid="uid://cfg7r2tw6fu0t" path="res://tscn/continue.gd" id="2_decsa"]
+
+[node name="Control" type="Control" unique_id=628762522]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bn22b")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1955673348]
+layout_mode = 0
+offset_left = -45.0
+offset_top = -77.0
+offset_right = 1248.0
+offset_bottom = 780.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=1414294838]
+layout_mode = 0
+offset_left = -45.0
+offset_top = 376.0
+offset_right = 1248.0
+offset_bottom = 669.0
+color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+
+[node name="Label" type="Label" parent="." unique_id=280634385]
+layout_mode = 0
+offset_left = 336.0
+offset_top = 452.0
+offset_right = 766.0
+offset_bottom = 513.0
+theme_override_fonts/font = ExtResource("1_4s81i")
+theme_override_font_sizes/font_size = 42
+text = "又是一年的雨季.。。。"
+
+[node name="Button" type="Button" parent="." unique_id=1028255010]
+layout_mode = 0
+offset_left = 981.0
+offset_top = 604.0
+offset_right = 1132.0785
+offset_bottom = 641.49445
+text = "继续>"
+script = ExtResource("2_decsa")

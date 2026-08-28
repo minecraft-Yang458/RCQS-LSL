@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cuxh7wv3dl3w"]
+
+[ext_resource type="Texture2D" uid="uid://ysmuu36fds70" path="res://5FF796346A6C26E6E8EE8F36CAC87200.png" id="1_5d4on"]
+[ext_resource type="Script" uid="uid://6dgn1pvg0i4c" path="res://tscn/low.gd" id="1_k0f88"]
+[ext_resource type="Texture2D" uid="uid://crvlr3n218nuj" path="res://EF183F773D7A4B1BB5DF01A7B0055677.png" id="3_4lkfa"]
+
+[node name="Control" type="Control" unique_id=1380651889]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_k0f88")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1373479205]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_5d4on")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=398943369]
+layout_mode = 0
+offset_left = -1.0
+offset_right = 1150.0
+offset_bottom = 646.0
+texture = ExtResource("3_4lkfa")
+expand_mode = 1
