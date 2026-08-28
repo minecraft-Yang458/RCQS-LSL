@@ -6,6 +6,7 @@
 ![美术及其他资源许可证: All right reserved](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E5%8F%8A%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81-All%20right%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
 > ⚠️IMPORTANT!重要!⚠️本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!
+> ⚠️IMPORTANT! ⚠️ This program is under a mixed license! Only the code follows MPL 2.0, the art and other resources are **All rights reserved**!!!
 ## 关于项目
 使用Godot 4.7.2+GDScript构建
 ## 版权信息
