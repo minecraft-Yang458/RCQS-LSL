@@ -14,7 +14,9 @@
 ## 快速开始
 1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)<br>
 2.导入`project`文件夹即可开始开发
-> 如果需要编译游戏还需要下载[导出模板](https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=export_templates.tpz&platform=templates)
+> 如果需要编译游戏还需要下载[导出模板](https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=export_templates.tpz&platform=templates)<br>
+
+> ⚠️**本项目代码采用 MPL 2.0，修改后二次分发须开源修改文件。其余所有资源（图像、音频、剧本、美术等）保留所有权利，未经版权人 小硕道长（QQ:1482883755）许可，禁止复制、分发、修改、改编、商业使用、移植、嵌入其他项目或制作衍生作品等任何形式的使用。**
 ## 版权信息
 - 原作:小硕道长
 - 复刻版:Yang458
