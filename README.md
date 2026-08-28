@@ -12,7 +12,7 @@
 ## 关于项目
 使用Godot 4.7.2+GDScript构建
 ## 快速开始
-1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)
+1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)<br>
 2.导入project文件夹即可开始开发
 ## 版权信息
 - 原作:小硕道长
