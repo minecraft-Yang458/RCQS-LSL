@@ -1,0 +1,25 @@
+name: PR GDScript Check
+
+on:
+  pull_request:
+    paths:
+      - '**.gd'                # 只在 .gd 文件变动时触发
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install gdtoolkit
+        run: pip install gdtoolkit
+
+      - name: Run gdlint
+        run: gdlint **/*.gd      # 检查所有 .gd 文件，失败则 PR 检查状态为 ❌
