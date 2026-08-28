@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://crnfjbgqpsduk"]
+
+[ext_resource type="Script" uid="uid://d03ll25k43yku" path="res://splash_screen.gd" id="1_8lrbv"]
+[ext_resource type="Texture2D" uid="uid://bbyfhgdk1vsy8" path="res://3AA0028F54B5AEB9D507A51DA3E90951.png" id="2_ja1jw"]
+[ext_resource type="Texture2D" uid="uid://8xmditvhpa0k" path="res://icon.svg" id="2_onsdr"]
+
+[node name="SplashScreen" type="Control" unique_id=466588479]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8lrbv")
+metadata/_edit_lock_ = true
+
+[node name="Phase1" type="Control" parent="." unique_id=2102816065]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 0
+offset_right = 34.0
+offset_bottom = 38.0
+
+[node name="TextureRect" type="TextureRect" parent="Phase1" unique_id=1544318598]
+layout_mode = 0
+offset_top = -2.0
+offset_right = 1153.0
+offset_bottom = 649.0
+texture = ExtResource("2_ja1jw")
+expand_mode = 1
+
+[node name="Phase2" type="Control" parent="." unique_id=601439700]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Phase2" unique_id=556999317]
+layout_mode = 0
+offset_left = 273.0
+offset_top = 255.0
+offset_right = 845.0
+offset_bottom = 430.0
+theme_override_font_sizes/font_size = 64
+text = "Yang458's Product"
+
+[node name="Phase3" type="Control" parent="." unique_id=575952585]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 0
+offset_left = 15.0
+offset_top = 36.0
+offset_right = 55.0
+offset_bottom = 76.0
+
+[node name="Label" type="Label" parent="Phase3" unique_id=927739378]
+layout_mode = 0
+offset_left = 431.0
+offset_top = 250.0
+offset_right = 736.0
+offset_bottom = 295.0
+theme_override_font_sizes/font_size = 32
+text = "Godot Game Enging"
+
+[node name="Label2" type="Label" parent="Phase3" unique_id=198764639]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 230.0
+offset_right = 740.0
+offset_bottom = 275.0
+text = "Powered by"
+
+[node name="TextureRect" type="TextureRect" parent="Phase3" unique_id=106362783]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 203.0
+offset_right = 418.0
+offset_bottom = 331.0
+texture = ExtResource("2_onsdr")
+
+[node name="FadeRect" type="ColorRect" parent="." unique_id=1282483729]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -1.0
+offset_right = 1152.0
+offset_bottom = 650.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
+metadata/_edit_lock_ = true

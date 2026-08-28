@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://cf1bnvrocd2kn"]
+
+[ext_resource type="Texture2D" uid="uid://bhacrnfhnvdj" path="res://36ba36b088c55be7899ba92bee263d98_0.png" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://ddfi7toijytcd" path="res://settings.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://b4q5vym0jwg4r" path="res://button_settings.gd" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://b.png" id="4_1bvp3"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jb02w"]
+texture = ExtResource("4_1bvp3")
+modulate_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" unique_id=264836974]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1329624678]
+layout_mode = 0
+offset_left = 3.0
+offset_top = -1.0
+offset_right = 1155.0
+offset_bottom = 647.0
+texture = ExtResource("1_ig7tw")
+
+[node name="Button_exit" type="Button" parent="." unique_id=1811609968]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 184.0
+offset_top = 520.0
+offset_right = 357.0
+offset_bottom = 568.0
+script = ExtResource("2_0xm2m")
+
+[node name="Button_settings" type="Button" parent="." unique_id=676174033]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 230.0
+offset_top = 469.0
+offset_right = 317.0
+offset_bottom = 517.0
+script = ExtResource("3_h2yge")
+
+[node name="Label2" type="Label" parent="." unique_id=1233561185]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 8.0
+offset_top = 593.0
+offset_right = 517.0
+offset_bottom = 653.0
+text = "本游戏为粉丝向同人复刻作品，非官方版本。
+强烈建议体验原作者“小硕道长”的官方原版，以获取最完整的游戏体验！"
+
+[node name="Label" type="Label" parent="." unique_id=1334636322]
+layout_mode = 0
+offset_left = 1037.0
+offset_top = 607.0
+offset_right = 1156.0
+offset_bottom = 649.0
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_jb02w")
+text = "v0.1.0"

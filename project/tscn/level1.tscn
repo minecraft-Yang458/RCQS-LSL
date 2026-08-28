@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://b5r8rb6yrcd5x"]
+
+[ext_resource type="Script" uid="uid://cxb5jy55r00dd" path="res://tscn/level_1.gd" id="1_8wns1"]
+[ext_resource type="Texture2D" uid="uid://dfcx2ph6et8gw" path="res://4498115bcf0c7bf2d2b07f8bf7a5c864.png" id="1_et3w1"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="2_85hh8"]
+[ext_resource type="Texture2D" uid="uid://dy2njra88ob4v" path="res://a399ceaff7c6dce1d560c77c1907ccf5.png" id="4_0c5b5"]
+[ext_resource type="Texture2D" uid="uid://df60k58uaof0" path="res://5c8679dc1e477eb18d0fa78d8a372c20_720.png" id="5_1kuui"]
+
+[node name="Control" type="Control" unique_id=333853408]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8wns1")
+
+[node name="Background" type="TextureRect" parent="." unique_id=118553715]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_et3w1")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="." unique_id=1098592070]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 189.0
+offset_right = 955.0
+offset_bottom = 277.0
+theme_override_fonts/font = ExtResource("2_85hh8")
+theme_override_font_sizes/font_size = 60
+text = "请确保您的灵魂留在体内"
+
+[node name="Image1" type="TextureRect" parent="." unique_id=1534760094]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 147.0
+offset_top = 50.0
+offset_right = 1070.0
+offset_bottom = 570.0
+texture = ExtResource("4_0c5b5")
+expand_mode = 1
+
+[node name="Image2" type="TextureRect" parent="." unique_id=296242074]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 44.0
+offset_right = 1067.0
+offset_bottom = 649.0
+texture = ExtResource("5_1kuui")
+expand_mode = 1

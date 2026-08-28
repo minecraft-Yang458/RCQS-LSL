@@ -1,0 +1,68 @@
+[gd_scene format=3 uid="uid://oelpgcabjyg6"]
+
+[ext_resource type="Script" uid="uid://np7eby50eutw" path="res://settings1.gd" id="1_nkug2"]
+[ext_resource type="Script" uid="uid://cvgr2dcrughaa" path="res://menu_button.gd" id="1_x2hje"]
+[ext_resource type="Script" uid="uid://cp6eohak8dw40" path="res://about.gd" id="3_3ykye"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_gc0em"]
+
+[node name="Control" type="Control" unique_id=1583292962]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nkug2")
+
+[node name="MenuButton" type="Button" parent="." unique_id=1136167355]
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 0
+offset_left = 9.0
+offset_top = 577.0
+offset_right = 185.40001
+offset_bottom = 630.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 32
+text = "返回"
+script = ExtResource("1_x2hje")
+
+[node name="Label" type="Label" parent="." unique_id=269873464]
+layout_mode = 0
+offset_left = 35.0
+offset_top = 23.0
+offset_right = 99.0
+offset_bottom = 68.0
+theme_override_fonts/font = ExtResource("3_gc0em")
+theme_override_font_sizes/font_size = 32
+text = "音量"
+
+[node name="MasterSlider" type="HSlider" parent="." unique_id=1229081321]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 28.0
+offset_right = 511.56995
+offset_bottom = 62.48001
+value = 50.0
+ticks_on_borders = true
+
+[node name="FullscreenCheck" type="CheckButton" parent="." unique_id=149118880]
+layout_mode = 0
+offset_left = 27.0
+offset_top = 66.0
+offset_right = 174.0
+offset_bottom = 119.0
+theme_override_fonts/font = ExtResource("3_gc0em")
+theme_override_font_sizes/font_size = 32
+text = "全屏"
+
+[node name="About" type="Button" parent="." unique_id=151533339]
+modulate = Color(1, 1, 1, 0.43529412)
+layout_mode = 0
+offset_left = 910.0
+offset_top = 576.0
+offset_right = 1133.0
+offset_bottom = 629.0
+theme_override_font_sizes/font_size = 32
+text = "关于制作团队"
+script = ExtResource("3_3ykye")

@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://dsjukk8067vu1"]
+
+[ext_resource type="Texture2D" uid="uid://8xmditvhpa0k" path="res://icon.svg" id="1_pp48r"]
+[ext_resource type="Script" uid="uid://dj6gq1bqautof" path="res://back_to_settings.gd" id="3_k56y8"]
+
+[node name="Control" type="Control" unique_id=2045360321]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=818061426]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 9.0
+offset_right = 495.4759
+offset_bottom = 293.156
+theme_override_font_sizes/font_size = 32
+text = "原作:小硕道长
+复刻版:Yang458
+美术资源:Copyright © 2026 小硕道长 All Rights Reserved.
+程序代码:Mozilla Public License 2.0 (详见根目录 LICENSE 文件)
+引擎：Made with Godot Engine (MIT License)"
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1039972096]
+layout_mode = 0
+offset_left = 944.0
+offset_top = 443.0
+offset_right = 1129.0
+offset_bottom = 628.0
+texture = ExtResource("1_pp48r")
+
+[node name="Button" type="Button" parent="." unique_id=930381860]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 584.0
+offset_right = 180.0
+offset_bottom = 637.0
+theme_override_font_sizes/font_size = 32
+text = "返回"
+script = ExtResource("3_k56y8")
+
+[node name="Label2" type="Label" parent="." unique_id=1847265182]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 4.0
+offset_top = 271.0
+offset_right = 1021.0
+offset_bottom = 364.0
+theme_override_font_sizes/font_size = 32
+text = "本游戏为粉丝向同人复刻作品，非官方版本。
+强烈建议体验原作者“小硕道长”的官方原版，以获取最完整的游戏体验！"

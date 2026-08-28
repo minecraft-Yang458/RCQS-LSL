@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://crecuasahag5n"]
+
+[ext_resource type="Texture2D" uid="uid://cccu432op4lwy" path="res://85244f5136e37e6eb27eef5c0e371765_720.png" id="1_3g233"]
+[ext_resource type="Script" uid="uid://bp0rw8wcyvg3k" path="res://button.gd" id="2_dldye"]
+
+[node name="Control" type="Control" unique_id=1971471896]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1257542625]
+layout_mode = 0
+offset_left = -15.0
+offset_top = -11.0
+offset_right = 1185.0
+offset_bottom = 664.0
+texture = ExtResource("1_3g233")
+
+[node name="Button" type="Button" parent="." unique_id=32533178]
+modulate = Color(1, 1, 1, 0.023529412)
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.016
+anchor_bottom = 0.024
+offset_left = 424.0
+offset_top = 554.0
+offset_right = 736.568
+offset_bottom = 622.448
+script = ExtResource("2_dldye")
