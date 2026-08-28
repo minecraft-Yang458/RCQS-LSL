@@ -1,6 +1,8 @@
 # 《日常侵蚀 灵蚀楼》粉丝复刻项目
 > ⚠️IMPORTANT!重要!⚠️本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!
-
+## 关于项目
+使用Godot 4.7.2+GDScript构建
+## 版权信息
 - 原作:小硕道长
 - 复刻版:Yang458
 - 美术资源:Copyright © 2026 小硕道长 All Rights Reserved.
