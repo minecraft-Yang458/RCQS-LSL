@@ -11,6 +11,7 @@
 > ⚠️ **IMPORTANT** ⚠️<br> This program is under a mixed license! Only the code follows MPL 2.0, the art and other resources are **All rights reserved**!!!
 ## 关于项目
 使用Godot 4.7.2+GDScript构建
+> 常见问题解答：[FAQ](https://github.com/minecraft-Yang458/RCQS-LSL/wiki/FAQ)
 ## 快速开始
 1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)<br>
 2.导入`project`文件夹即可开始开发
