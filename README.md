@@ -1,4 +1,4 @@
-<img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height=400px weight=800px></img>
+<img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height=200px weight=400px></img>
 # 《日常侵蚀 灵蚀楼》粉丝复刻项目
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
@@ -6,6 +6,7 @@
 [![代码许可证: MPL%202.0](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81%E8%AE%B8%E5%8F%AF%E8%AF%81-MPL_2.0-brightgreen.svg?style=flat)](https://opensource.org/licenses/MPL-2.0)
 ![美术及其他资源许可证: All right reserved](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E5%8F%8A%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81-All%20right%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
+
 
 > ⚠️ **重要** ⚠️<br>
 本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!<br>
