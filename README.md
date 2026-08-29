@@ -5,10 +5,13 @@
 [![代码许可证: MPL%202.0](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81%E8%AE%B8%E5%8F%AF%E8%AF%81-MPL_2.0-brightgreen.svg?style=flat)](https://opensource.org/licenses/MPL-2.0)
 ![美术及其他资源许可证: All right reserved](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E5%8F%8A%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81-All%20right%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
+
 > ⚠️ **重要** ⚠️<br>
-> 本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!<br>
+本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!<br>
 
 > ⚠️ **IMPORTANT** ⚠️<br> This program is under a mixed license! Only the code follows MPL 2.0, the art and other resources are **All rights reserved**!!!
+
+> **您可以在[项目wiki](https://github.com/minecraft-Yang458/RCQS-LSL/wiki)中获得更多信息**
 ## 关于项目
 使用Godot 4.7.2+GDScript构建
 > 常见问题解答：[FAQ](https://github.com/minecraft-Yang458/RCQS-LSL/wiki/FAQ)
@@ -37,4 +40,3 @@
 
 - 感谢原作者 **小硕道长** 授权使用其原创美术及剧本素材，并支持本复刻版的开发。
 - 感谢所有关注和支持本项目的玩家。
-
