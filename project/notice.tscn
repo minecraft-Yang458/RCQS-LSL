@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://crecuasahag5n"]
 
-[ext_resource type="Texture2D" uid="uid://cccu432op4lwy" path="res://85244f5136e37e6eb27eef5c0e371765_720.png" id="1_3g233"]
+[ext_resource type="Texture2D" uid="uid://cccu432op4lwy" path="res://assets/85244f5136e37e6eb27eef5c0e371765_720.png" id="1_3g233"]
 [ext_resource type="Script" uid="uid://bp0rw8wcyvg3k" path="res://button.gd" id="2_dldye"]
 
 [node name="Control" type="Control" unique_id=1971471896]

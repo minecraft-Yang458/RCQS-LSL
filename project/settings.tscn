@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://np7eby50eutw" path="res://settings1.gd" id="1_nkug2"]
 [ext_resource type="Script" uid="uid://cvgr2dcrughaa" path="res://menu_button.gd" id="1_x2hje"]
 [ext_resource type="Script" uid="uid://cp6eohak8dw40" path="res://about.gd" id="3_3ykye"]
-[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_gc0em"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_gc0em"]
 
 [node name="Control" type="Control" unique_id=1583292962]
 modulate = Color(0, 0, 0, 1)

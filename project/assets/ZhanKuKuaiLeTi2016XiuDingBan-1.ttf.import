@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://c6wi3i6jnhc1e"
-path="res://.godot/imported/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf-4884f4c9558e598baaa619062f042bca.fontdata"
+path="res://.godot/imported/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf-99e2bce681ea28fc97d44f507d98e367.fontdata"
 
 [deps]
 
-source_file="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf"
-dest_files=["res://.godot/imported/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf-4884f4c9558e598baaa619062f042bca.fontdata"]
+source_file="res://assets/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf"
+dest_files=["res://.godot/imported/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf-99e2bce681ea28fc97d44f507d98e367.fontdata"]
 
 [params]
 

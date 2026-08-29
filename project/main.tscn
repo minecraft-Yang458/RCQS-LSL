@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cf1bnvrocd2kn"]
 
-[ext_resource type="Texture2D" uid="uid://bhacrnfhnvdj" path="res://36ba36b088c55be7899ba92bee263d98_0.png" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://bhacrnfhnvdj" path="res://assets/36ba36b088c55be7899ba92bee263d98_0.png" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://ddfi7toijytcd" path="res://settings.gd" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://b4q5vym0jwg4r" path="res://button_settings.gd" id="3_h2yge"]
-[ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://b.png" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://assets/b.png" id="4_1bvp3"]
 [ext_resource type="Script" uid="uid://de15asb86mmoi" path="res://start_game.gd" id="5_lquwl"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jb02w"]

@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://b5r8rb6yrcd5x"]
 
 [ext_resource type="Script" uid="uid://cxb5jy55r00dd" path="res://tscn/level_1.gd" id="1_8wns1"]
-[ext_resource type="Texture2D" uid="uid://dfcx2ph6et8gw" path="res://4498115bcf0c7bf2d2b07f8bf7a5c864.png" id="1_et3w1"]
-[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="2_85hh8"]
-[ext_resource type="Texture2D" uid="uid://dy2njra88ob4v" path="res://a399ceaff7c6dce1d560c77c1907ccf5.png" id="4_0c5b5"]
-[ext_resource type="Texture2D" uid="uid://df60k58uaof0" path="res://5c8679dc1e477eb18d0fa78d8a372c20_720.png" id="5_1kuui"]
+[ext_resource type="Texture2D" uid="uid://dfcx2ph6et8gw" path="res://assets/4498115bcf0c7bf2d2b07f8bf7a5c864.png" id="1_et3w1"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="2_85hh8"]
+[ext_resource type="Texture2D" uid="uid://dy2njra88ob4v" path="res://assets/a399ceaff7c6dce1d560c77c1907ccf5.png" id="4_0c5b5"]
+[ext_resource type="Texture2D" uid="uid://df60k58uaof0" path="res://assets/5c8679dc1e477eb18d0fa78d8a372c20_720.png" id="5_1kuui"]
 
 [node name="Control" type="Control" unique_id=333853408]
 layout_mode = 3

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://crnfjbgqpsduk"]
 
 [ext_resource type="Script" uid="uid://d03ll25k43yku" path="res://splash_screen.gd" id="1_8lrbv"]
-[ext_resource type="Texture2D" uid="uid://bjyu0qethcw3x" path="res://B5B9349387AED7F51056B816A14D8D74.png" id="2_ja1jw"]
+[ext_resource type="Texture2D" uid="uid://bjyu0qethcw3x" path="res://assets/B5B9349387AED7F51056B816A14D8D74.png" id="2_ja1jw"]
 [ext_resource type="Texture2D" uid="uid://8xmditvhpa0k" path="res://icon.svg" id="2_onsdr"]
 
 [node name="SplashScreen" type="Control" unique_id=466588479]

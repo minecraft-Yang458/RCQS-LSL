@@ -11,16 +11,11 @@ var ui_sfx_player : AudioStreamPlayer
 
 func _ready():
 	load_settings()
-	setup_ui_sfx()   # 调用初始化函数（注意：现在这个函数是独立定义的，不是嵌套在 _ready 里）
+	
+	# 调用初始化函数（注意：现在这个函数是独立定义的，不是嵌套在 _ready 里）
 
 # ---------- 【修复】UI 音效初始化（独立函数，不再嵌套） ----------
-func setup_ui_sfx():
-	ui_sfx_player = AudioStreamPlayer.new()
-	# 硬编码加载音效文件（把路径换成你的真实路径）
-	ui_sfx_player.stream = preload("res://click.ogg")
-	# 让它也走 Master 总线，这样音量滑块能同时控制BGM和音效
-	ui_sfx_player.bus = "Master"
-	add_child(ui_sfx_player)
+
 
 # ---------- 【修复】播放 UI 音效（独立函数，不再嵌套） ----------
 func play_ui_sound():
@@ -83,3 +78,49 @@ func play_sfx(stream: AudioStream):
 func stop_sfx():
 	if sfx_player and sfx_player.playing:
 		sfx_player.stop()
+# SettingsManager.gd 新增部分
+
+# 循环音效专用播放器（区别于 BGM 和单次 SFX）
+var loop_sfx_player: AudioStreamPlayer
+
+# ---------- 开始循环播放音效 ----------
+func play_looping_sfx(stream: AudioStream):
+	# 1. 如果播放器不存在，创建它
+	if not loop_sfx_player:
+		loop_sfx_player = AudioStreamPlayer.new()
+		loop_sfx_player.bus = "Master"  # 走主总线，受音量滑块控制
+		add_child(loop_sfx_player)
+	
+	# 2. 重置音高，避免之前踩过的“音高变异”坑
+	loop_sfx_player.pitch_scale = 1.0
+	
+	# 3. 更换音效文件
+	loop_sfx_player.stream = stream
+	
+	# 4. 【重要】先断开旧的 finished 连接，防止重复连接导致多次触发
+	if loop_sfx_player.finished.is_connected(_on_loop_sfx_finished):
+		loop_sfx_player.finished.disconnect(_on_loop_sfx_finished)
+	
+	# 5. 连接循环信号
+	loop_sfx_player.finished.connect(_on_loop_sfx_finished)
+	
+	# 6. 开始播放
+	loop_sfx_player.play()
+
+# ---------- 循环回调（内部自动循环） ----------
+func _on_loop_sfx_finished():
+	if loop_sfx_player and loop_sfx_player.playing == false:
+		loop_sfx_player.play()
+
+# ---------- 停止循环播放音效 ----------
+func stop_looping_sfx():
+	if loop_sfx_player:
+		# 停止播放
+		loop_sfx_player.stop()
+		# 断开信号，防止下次重新播放时残留旧连接
+	if loop_sfx_player.finished.is_connected(_on_loop_sfx_finished):
+		loop_sfx_player.finished.disconnect(_on_loop_sfx_finished)
+
+# ---------- 可选：判断是否正在循环播放 ----------
+func is_looping_sfx_playing() -> bool:
+	return loop_sfx_player and loop_sfx_player.playing

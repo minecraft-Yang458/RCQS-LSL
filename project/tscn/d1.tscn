@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://be4kjj3bj7mmb"]
 
-[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="1_4s81i"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="1_4s81i"]
 [ext_resource type="Script" uid="uid://bjgya5on1se7p" path="res://tscn/d_1.gd" id="1_bn22b"]
 [ext_resource type="Script" uid="uid://cfg7r2tw6fu0t" path="res://tscn/continue.gd" id="2_decsa"]
 

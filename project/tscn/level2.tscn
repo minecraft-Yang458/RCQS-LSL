@@ -1,6 +1,12 @@
 [gd_scene format=3 uid="uid://dcqwy6wfiwpvf"]
 
-[ext_resource type="Texture2D" uid="uid://b3eu05ijbrb65" path="res://0848EFA01E7B466F717B9F1AA84ED9AA.png" id="1_gimql"]
+[ext_resource type="Script" uid="uid://rswdt0q3uhgp" path="res://tscn/level_2.gd" id="1_fa3e1"]
+[ext_resource type="Texture2D" uid="uid://b3eu05ijbrb65" path="res://assets/0848EFA01E7B466F717B9F1AA84ED9AA.png" id="1_gimql"]
+[ext_resource type="Texture2D" uid="uid://tjc887ugo4hx" path="res://assets/729EC2426BEDB558D1AE392A1745FE09.jpg" id="3_ud7w6"]
+[ext_resource type="Texture2D" uid="uid://clq73hklcw4ur" path="res://assets/A57D0F8A80D7D51674A875ABC38B7C0D.jpg" id="4_qupgc"]
+[ext_resource type="Texture2D" uid="uid://ysmuu36fds70" path="res://assets/5FF796346A6C26E6E8EE8F36CAC87200.png" id="5_gf5lk"]
+[ext_resource type="Texture2D" uid="uid://dnde5f0vborg8" path="res://assets/83BC34AD6817ED95F5258684E92C0387.jpg" id="6_aej1q"]
+[ext_resource type="Texture2D" uid="uid://crvlr3n218nuj" path="res://EF183F773D7A4B1BB5DF01A7B0055677.png" id="7_une2r"]
 
 [node name="Control" type="Control" unique_id=1930086196]
 layout_mode = 3
@@ -9,8 +15,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_fa3e1")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1015759760]
+[node name="TextureRect1" type="TextureRect" parent="." unique_id=1015759760]
 layout_mode = 0
 offset_left = -3.0
 offset_top = 2.0
@@ -18,3 +26,39 @@ offset_right = 1152.0
 offset_bottom = 648.0
 texture = ExtResource("1_gimql")
 expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=1141980147]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 651.0
+texture = ExtResource("3_ud7w6")
+expand_mode = 1
+
+[node name="TextureRect3" type="TextureRect" parent="." unique_id=1817550436]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 651.0
+texture = ExtResource("4_qupgc")
+expand_mode = 1
+
+[node name="TextureRect4" type="TextureRect" parent="." unique_id=2024802444]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 651.0
+texture = ExtResource("5_gf5lk")
+expand_mode = 1
+
+[node name="TextureRect5" type="TextureRect" parent="." unique_id=381818037]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 651.0
+texture = ExtResource("6_aej1q")
+expand_mode = 1
+
+[node name="TextureRect6" type="TextureRect" parent="." unique_id=653399595]
+layout_mode = 0
+offset_left = -4.0
+offset_top = -20.0
+offset_right = 1196.0
+offset_bottom = 655.0
+texture = ExtResource("7_une2r")

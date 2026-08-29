@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://btonmcck1x157"
-path="res://.godot/imported/上楼梯.wav-3639b8119d4c07ae85c85cb21d20eaae.sample"
+path="res://.godot/imported/上楼梯.wav-db27b9ee56bdd05406045dc1c08337c4.sample"
 
 [deps]
 
-source_file="res://上楼梯.wav"
-dest_files=["res://.godot/imported/上楼梯.wav-3639b8119d4c07ae85c85cb21d20eaae.sample"]
+source_file="res://assets/上楼梯.wav"
+dest_files=["res://.godot/imported/上楼梯.wav-db27b9ee56bdd05406045dc1c08337c4.sample"]
 
 [params]
 
