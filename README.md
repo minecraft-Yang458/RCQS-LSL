@@ -5,9 +5,18 @@
 [![代码许可证: MPL%202.0](https://img.shields.io/badge/%E4%BB%A3%E7%A0%81%E8%AE%B8%E5%8F%AF%E8%AF%81-MPL_2.0-brightgreen.svg?style=flat)](https://opensource.org/licenses/MPL-2.0)
 ![美术及其他资源许可证: All right reserved](https://img.shields.io/badge/%E7%BE%8E%E6%9C%AF%E5%8F%8A%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90%E8%AE%B8%E5%8F%AF%E8%AF%81-All%20right%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
-> ⚠️IMPORTANT!重要!⚠️本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!
+> ⚠️ **重要** ⚠️<br>
+> 本程序是混合许可证！只有代码遵循MPL2.0,美术及其他资源为**All right reserved**!!!<br>
+
+> ⚠️ **IMPORTANT** ⚠️<br> This program is under a mixed license! Only the code follows MPL 2.0, the art and other resources are **All rights reserved**!!!
 ## 关于项目
 使用Godot 4.7.2+GDScript构建
+## 快速开始
+1.下载[Godot 4.7.2](https://godotengine.org/download/archive/4.7.2-stable/)<br>
+2.导入`project`文件夹即可开始开发
+> 如果需要编译游戏还需要下载[导出模板](https://downloads.godotengine.org/?version=4.7.2&flavor=stable&slug=export_templates.tpz&platform=templates)<br>
+
+> ⚠️**本项目代码采用 MPL 2.0，修改后二次分发须开源修改文件。其余所有资源（图像、音频、剧本、美术等）保留所有权利，未经版权人 小硕道长（QQ:1482883755）许可，禁止复制、分发、修改、改编、商业使用、移植、嵌入其他项目或制作衍生作品等任何形式的使用。**
 ## 版权信息
 - 原作:小硕道长
 - 复刻版:Yang458
