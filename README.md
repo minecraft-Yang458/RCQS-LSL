@@ -1,4 +1,5 @@
-<img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height="400px" width="800px">
+<img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height="200px" width="300px">
+
 # 《日常侵蚀 灵蚀楼》粉丝复刻项目
 
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
