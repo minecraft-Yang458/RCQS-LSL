@@ -5,7 +5,7 @@
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
 ![平台](https://img.shields.io/badge/平台-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android%20%7C%20iOS-blue)<br>
-[![代码许可证: GPLv3](https://img.shields.io/badge/代码许可证-GPLv3-blue.svg?style=flat)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![代码许可证: GPLv3](https://img.shields.io/badge/代码许可证-GPLv3-green.svg?style=flat)](https://www.gnu.org/licenses/gpl-3.0.html)
 ![美术及其他资源许可证: All rights reserved](https://img.shields.io/badge/美术及其他资源-All%20rights%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
 
