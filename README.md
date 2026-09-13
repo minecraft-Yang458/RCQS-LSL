@@ -1,6 +1,7 @@
 <img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height="200px" width="300px">
 
-# 《日常侵蚀 灵蚀楼》粉丝复刻项目
+# 《日常侵蚀 灵蚀楼》Godot重构版项目
+> 本仓库作者已与原作者于2026年8月30日达成合作，本仓库已转正为Godot重构版
 
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
@@ -23,7 +24,7 @@
 
 ## 📖 关于项目
 
-使用 **Godot 4.7.2** + **GDScript** 构建的粉丝向同人复刻作品。
+使用 **Godot 4.7.2** + **GDScript** 构建的Godot重构版作品。
 
 - 常见问题解答：[FAQ](https://github.com/minecraft-Yang458/RCQS-LSL/wiki/FAQ)
 
@@ -49,12 +50,12 @@
 | 项目 | 版权归属 | 许可证 |
 | :--- | :--- | :--- |
 | 原作 | 小硕道长 | All Rights Reserved |
-| 复刻版开发 | Yang458 | — |
+| Godot重构版开发 | Yang458 | — |
 | 美术资源 | 小硕道长 | All Rights Reserved |
 | 程序代码 | Yang458 | **GPLv3** |
 | 游戏引擎 | Godot Engine | MIT License |
 
-> ⚠️ **免责声明**：本游戏为粉丝向同人复刻作品，**非官方版本**。所有美术素材著作权归原作者所有，未经授权不得商用。
+> ⚠️ **免责声明**：本游戏为Godot重构版作品。所有美术素材著作权归原作者所有，未经授权不得商用。
 
 
 
