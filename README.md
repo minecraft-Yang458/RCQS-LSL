@@ -9,6 +9,7 @@
 [![代码许可证: GPLv3](https://img.shields.io/badge/代码许可证-GPLv3-green.svg?style=flat)](https://www.gnu.org/licenses/gpl-3.0.html)
 ![美术及其他资源许可证: All rights reserved](https://img.shields.io/badge/美术及其他资源-All%20rights%20reserved-orange.svg?style=flat)
 ![引擎许可证](https://img.shields.io/badge/引擎-Godot%20(MIT)-lightgrey)
+![字体许可证](https://img.shields.io/badge/字体-站酷快乐体%20(SIL_Open_Font_License)-lightgray)
 
 > ⚠️ **重要** ⚠️  
 > 本程序是**混合许可证**！  
