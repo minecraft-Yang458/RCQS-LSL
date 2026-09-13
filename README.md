@@ -14,10 +14,12 @@
 > 本程序是**混合许可证**！  
 > **代码**遵循 **GNU General Public License v3.0**，美术及其他资源为 **All Rights Reserved**（保留所有权利）。  
 > 这意味着：您**可以**自由使用、修改、分发本项目的**代码**，但**必须**开源您的修改，且**不得**用于闭源商业项目。
+> <br>*本项目中的字体站酷快乐体是个例外，遵循SIL Open Font License。
 
 > ⚠️ **IMPORTANT** ⚠️  
 > This program is under a **mixed license**!  
 > The **code** is licensed under the **GNU General Public License v3.0**, while the art and other resources are **All Rights Reserved**.
+> <br>*The Zcool KuaiLe font in this project is an exception and follows the SIL Open Font License.
 
 > 您可以在[项目 Wiki](https://github.com/minecraft-Yang458/RCQS-LSL/wiki) 中获得更多信息。
 
@@ -54,7 +56,7 @@
 | 美术资源 | 小硕道长 | All Rights Reserved |
 | 程序代码 | Yang458 | **GPLv3** |
 | 游戏引擎 | Godot Engine | MIT License |
-
+| 字体-站酷快乐体 | 站酷 | SIL Open Font License |
 > ⚠️ **免责声明**：本游戏为Godot重构版作品。所有美术素材著作权归原作者所有，未经授权不得商用。
 
 
