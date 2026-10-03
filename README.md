@@ -60,7 +60,18 @@
 | 游戏引擎 | Godot Engine | MIT License |
 | 字体-站酷快乐体 | 站酷 | SIL Open Font License |
 > ⚠️ **免责声明**：本游戏为Godot重构版作品。所有美术素材著作权归原作者所有，未经授权不得商用。
+---
+- **程序代码**：Copyright (C) 2026 Yang458。以 GNU GPLv3 or later 分发，并附有 GPLv3 第 7 节附加许可（链接例外）。详见 [LICENSE](LICENSE)。
+- **美术、音频、剧本等资源**：Copyright (C) 2026 小硕道长，All Rights Reserved。这些资源不适用 GPLv3。
+- 根据 LICENSE 中的 GPLv3 第 7 节附加许可，允许将本项目的 GPLv3 程序代码与上述专有资源链接、打包、分发。
+- 接收者仅对程序代码享有 GPLv3 权利，对上述专有资源不享有任何 GPLv3 权利。
+- 再分发上述专有资源，须单独获得版权人书面许可。
+- **Steam 版本**：由原作者小硕道长发布。Steam 版本包含 GPLv3 程序代码，因此其分发须遵守 GPLv3，并提供对应源码链接。
+- **对应源码**：https://github.com/minecraft-Yang458/RCQS-LSL
+- **隐私政策**：[PRIVACY.md](PRIVACY.md)
+- **引擎**：Godot Engine © Juan Linietsky, Ariel Manzur and contributors，MIT License。
 
+> 本说明仅为摘要，正式许可条款以 [LICENSE](LICENSE) 英文版为准。
 
 
 ## 🗂️ 开发进度
