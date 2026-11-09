@@ -1,7 +1,11 @@
 <img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height="200px" width="300px">
 
+> [!CAUTION]
+>
+> **原作者于2026年11月10日明确表示已放弃开发原作，本仓库维护者正在和原作者交涉来争取维持本仓库更新**<br>
+> **The original author explicitly stated on November 10, 2026, that he would no longer be developing the original work. The current maintainer is in negotiations with the original author to try and maintain updates to this repository.**
 # 《日常侵蚀 灵蚀楼》Godot重构版项目
-> 本仓库作者已与原作者于2026年8月30日达成合作，本仓库已转正为Godot重构版
+> 本仓库作者曾于 2026年8月30日 与原作者达成合作，本仓库曾被授权为官方 Godot 重构版。
 
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
