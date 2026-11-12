@@ -1,11 +1,13 @@
 <img src="https://github.com/minecraft-Yang458/RCQS-LSL/blob/main/project/assets/36A2E601C6DEECC501B07DA113489E13.png" alt="logo" height="200px" width="300px">
 
-> [!CAUTION]
->
-> **原作者于2026年11月10日明确表示已放弃开发原作，本仓库维护者正在和原作者交涉来争取维持本仓库更新**<br>
-> **The original author explicitly stated on November 10, 2026, that he would no longer be developing the original work. The current maintainer is in negotiations with the original author to try and maintain updates to this repository.**
+> [!TIP]
+> 1. **原作者表示停更版本仅为手机原版，其将继续支持 Godot 重构版开发。**
+>    <br>*The original author stated that only the legacy mobile version is discontinued, and will continue to support the development of the Godot remake.*
+> 
+> 2. **开发工作将由新成立的 FoxSix Game Studio 继续进行，而非原来的 Yang458（虽然只是换个名...）。**
+>    <br>*The development will now be handled by the newly established FoxSix Game Studio instead of Yang458. (Even though it's basically just a rebranding...)*
 # 《日常侵蚀 灵蚀楼》Godot重构版项目
-> 本仓库作者曾于 2026年8月30日 与原作者达成合作，本仓库曾被授权为官方 Godot 重构版。
+> 本仓库作者于 2026年8月30日 与原作者达成合作，本仓库被授权为官方 Godot 重构版。
 
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
 ![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
@@ -93,5 +95,5 @@
 
 ## 🙏 致谢
 
-- 感谢原作者 小硕道长 曾于 2026 年 8 月 30 日授权本重构版使用其原创美术及剧本素材。无论项目最终走向如何，没有原作的精彩创作，就不会有本项目的诞生。
+- 感谢原作者 小硕道长 于 2026 年 8 月 30 日授权本重构版使用其原创美术及剧本素材。
 - 感谢所有关注和支持本项目的玩家。
