@@ -6,6 +6,11 @@
 > 
 > 2. **开发工作将由新成立的 FoxSix Game Studio 继续进行，而非原来的 Yang458（虽然只是换个名...）。**
 >    <br>*The development will now be handled by the newly established FoxSix Game Studio instead of Yang458. (Even though it's basically just a rebranding...)*
+
+> [!WARNING]
+>
+> 本项目很可能即将迎来破坏性变更（Breaking change）！<br>
+> This project is likely to undergo breaking changes!
 # 《日常侵蚀 灵蚀楼》Godot重构版项目
 > 本仓库作者于 2026年8月30日 与原作者达成合作，本仓库被授权为官方 Godot 重构版。
 
