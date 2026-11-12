@@ -16,9 +16,13 @@ func show_sequence():
 	await get_tree().create_timer(1.5).timeout
 
 	# 图1：淡入(0.5s) → 停留(1.5s) → 淡出(0.5s)
+	var sound = preload("res://assets/audio/Book01.ogg")
+	SettingsManager.play_sfx(sound)
 	await fade_in(img1)
 	await get_tree().create_timer(1.5).timeout
-
+	SettingsManager.play_sfx(sound)
+	var s1 = preload("res://assets/audio/Monster07.ogg")
+	SettingsManager.play_sfx(s1)
 	# 图2：淡入(0.5s) → 停留(1.5s) → 淡出(0.5s)
 	img2.modulate.a = 1.0
 	start_shake()

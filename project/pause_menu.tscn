@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://d3gpohxlbhsg0"]
+
+[ext_resource type="Script" uid="uid://b6n7c02vhlsky" path="res://pause_menu.gd" id="1_nwcfo"]
+[ext_resource type="Texture2D" uid="uid://bklau1c7i23wv" path="res://assets/36A2E601C6DEECC501B07DA113489E13.png" id="2_05uyy"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=2106795620]
+script = ExtResource("1_nwcfo")
+
+[node name="Control" type="Control" parent="." unique_id=439899808]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=954740057]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.737193, 0.7371929, 0.7371929, 0.39215687)
+
+[node name="TextureRect" type="TextureRect" parent="Control/ColorRect" unique_id=1893145592]
+layout_mode = 0
+offset_left = 367.0
+offset_top = -63.0
+offset_right = 793.13605
+offset_bottom = 264.94318
+texture = ExtResource("2_05uyy")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=103417586]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -82.0
+offset_top = -116.0
+offset_right = 86.0
+offset_bottom = 222.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 4
+
+[node name="ResumeButton" type="Button" parent="Control/VBoxContainer" unique_id=597082041]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "继续游戏"
+
+[node name="LoadButton" type="Button" parent="Control/VBoxContainer" unique_id=699429059]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "读档"
+
+[node name="SaveButton" type="Button" parent="Control/VBoxContainer" unique_id=678795014]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "存档"
+
+[node name="SettingButton" type="Button" parent="Control/VBoxContainer" unique_id=1629785777]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "设置"
+
+[node name="MainMenuButton" type="Button" parent="Control/VBoxContainer" unique_id=963877847]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "返回主菜单"
+
+[node name="QuitButton" type="Button" parent="Control/VBoxContainer" unique_id=1995186142]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "退出游戏"

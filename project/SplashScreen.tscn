@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://d03ll25k43yku" path="res://splash_screen.gd" id="1_8lrbv"]
 [ext_resource type="Texture2D" uid="uid://bjyu0qethcw3x" path="res://assets/B5B9349387AED7F51056B816A14D8D74.png" id="2_ja1jw"]
 [ext_resource type="Texture2D" uid="uid://8xmditvhpa0k" path="res://icon.svg" id="2_onsdr"]
+[ext_resource type="Texture2D" uid="uid://bgiomase0yr0h" path="res://assets/logo.png" id="3_ja1jw"]
 
 [node name="SplashScreen" type="Control" unique_id=466588479]
 layout_mode = 3
@@ -34,14 +35,14 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Label" type="Label" parent="Phase2" unique_id=556999317]
+[node name="Label" type="TextureRect" parent="Phase2" unique_id=733246802]
 layout_mode = 0
-offset_left = 273.0
-offset_top = 255.0
-offset_right = 845.0
-offset_bottom = 430.0
-theme_override_font_sizes/font_size = 64
-text = "Yang458's Product"
+offset_left = 3.0
+offset_top = -35.0
+offset_right = 1152.0
+offset_bottom = 605.0
+texture = ExtResource("3_ja1jw")
+expand_mode = 1
 
 [node name="Phase3" type="Control" parent="." unique_id=575952585]
 modulate = Color(1, 1, 1, 0)

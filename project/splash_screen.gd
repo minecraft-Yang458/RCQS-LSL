@@ -6,6 +6,8 @@ extends Control
 @onready var fade_rect = $FadeRect
 
 func _ready():
+	pause_menu.can_pause = false
+	pause_menu.resume()
 	# 初始化全部不可见
 	phase1.modulate.a = 0
 	phase2.modulate.a = 0
@@ -48,3 +50,5 @@ func fade_out(node):
 	var tween = create_tween()
 	tween.tween_property(node, "modulate:a", 0.0, 0.5)  # 0.5秒淡出
 	await tween.finished
+func _exit_tree() -> void:
+	pause_menu.can_pause = true

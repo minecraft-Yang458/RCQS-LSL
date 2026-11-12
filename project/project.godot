@@ -23,6 +23,7 @@ driver/output_latency=50
 [autoload]
 
 SettingsManager="*uid://bp8jtkrk0v4ua"
+pause_menu="*uid://d3gpohxlbhsg0"
 
 [display]
 

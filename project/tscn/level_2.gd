@@ -21,6 +21,11 @@ func _unhandled_input(event):
 		if current_index == TOTAL - 1:
 			SettingsManager.stop_looping_sfx()
 			SettingsManager.stop_sfx()
+			var door = preload("res://assets/audio/Door01.ogg")
+			var door1 = preload("res://assets/audio/Door02.ogg")
+			SettingsManager.play_sfx(door)
+			await  get_tree().create_timer(0.5).timeout
+			SettingsManager.play_sfx(door1)
 			get_tree().change_scene_to_file(NEXT_SCENE_PATH)
 			return
 		

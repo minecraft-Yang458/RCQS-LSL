@@ -1,5 +1,9 @@
 [gd_scene format=3 uid="uid://ch2qcyktyfrmm"]
 
+[ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://assets/b.png" id="1_rtx67"]
+[ext_resource type="Script" uid="uid://bdyn3qs2rpw4d" path="res://tscn/level_3.gd" id="1_vc1wl"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="2_gj3or"]
+
 [node name="Control" type="Control" unique_id=1998720803]
 layout_mode = 3
 anchors_preset = 15
@@ -7,3 +11,36 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_vc1wl")
+
+[node name="B" type="Sprite2D" parent="." unique_id=1643872292]
+position = Vector2(576, 321.99997)
+scale = Vector2(1.0017362, 1.0061729)
+texture = ExtResource("1_rtx67")
+
+[node name="ColorRect2" type="ColorRect" parent="." unique_id=2131018716]
+layout_mode = 0
+offset_left = -45.0
+offset_top = 376.0
+offset_right = 1248.0
+offset_bottom = 669.0
+color = Color(0.26293245, 0.26293245, 0.26293245, 1)
+
+[node name="Label" type="Label" parent="." unique_id=1375516751]
+layout_mode = 0
+offset_left = 336.0
+offset_top = 461.0
+offset_right = 714.0
+offset_bottom = 504.0
+scale = Vector2(1.0453784, 1)
+theme_override_fonts/font = ExtResource("2_gj3or")
+theme_override_font_sizes/font_size = 42
+text = "日子慢慢变好了……"
+
+[node name="Button" type="Button" parent="." unique_id=1854209116]
+layout_mode = 0
+offset_left = 981.0
+offset_top = 604.0
+offset_right = 1132.0785
+offset_bottom = 641.49445
+text = "继续>"
