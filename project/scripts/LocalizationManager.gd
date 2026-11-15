@@ -15,7 +15,8 @@ var translations: Dictionary = {}
 
 func _ready():
 	# 游戏启动时，默认加载简体中文
-	set_language(FALLBACK_LANG)
+	if translations.is_empty():
+		set_language(FALLBACK_LANG)
 
 # 核心方法：切换语言
 func set_language(lang_code: String):
