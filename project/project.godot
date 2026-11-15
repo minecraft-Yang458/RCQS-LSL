@@ -10,10 +10,10 @@ config_version=5
 
 [application]
 
-config/name="Game1"
+config/name="RCQS-LSL"
 run/main_scene="uid://crnfjbgqpsduk"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+boot_splash/bg_color=Color(0, 0, 0, 1)
 
 [audio]
 
@@ -46,3 +46,4 @@ mv_right={
 
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

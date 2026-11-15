@@ -17,52 +17,77 @@ script = ExtResource("1_f4mfi")
 
 [node name="MenuButton" type="Button" parent="." unique_id=1136167355]
 modulate = Color(1, 1, 1, 0.43529412)
-layout_mode = 0
-offset_left = 9.0
-offset_top = 577.0
-offset_right = 185.40001
-offset_bottom = 630.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.008
+anchor_top = 0.89000005
+anchor_right = 0.16100001
+anchor_bottom = 0.97200006
+offset_left = -0.21600056
+offset_top = 0.27996826
+offset_right = -0.072006226
+offset_bottom = 0.14398193
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 32
 text = "返回"
 script = ExtResource("2_es4n0")
 
 [node name="Label" type="Label" parent="." unique_id=269873464]
-layout_mode = 0
-offset_left = 35.0
-offset_top = 23.0
-offset_right = 99.0
-offset_bottom = 68.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.030000001
+anchor_top = 0.035
+anchor_right = 0.086
+anchor_bottom = 0.105000004
+offset_left = 0.43999863
+offset_top = 0.3199997
+offset_right = -0.072006226
+offset_bottom = -0.040000916
 theme_override_fonts/font = ExtResource("3_f4mfi")
 theme_override_font_sizes/font_size = 32
 text = "音量"
 
 [node name="MasterSlider" type="HSlider" parent="." unique_id=1229081321]
-layout_mode = 0
-offset_left = 136.0
-offset_top = 28.0
-offset_right = 511.56995
-offset_bottom = 62.48001
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.11800001
+anchor_top = 0.043
+anchor_right = 0.44400004
+anchor_bottom = 0.096
+offset_left = 0.06399536
+offset_top = 0.13599968
+offset_right = 0.08190918
+offset_bottom = 0.2720108
 value = 50.0
 ticks_on_borders = true
 
 [node name="FullscreenCheck" type="CheckButton" parent="." unique_id=149118880]
-layout_mode = 0
-offset_left = 27.0
-offset_top = 66.0
-offset_right = 174.0
-offset_bottom = 119.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.023000002
+anchor_top = 0.102000006
+anchor_right = 0.155
+anchor_bottom = 0.18400002
+offset_left = 0.5039978
+offset_top = -0.09600067
+offset_right = -0.55999756
+offset_bottom = -0.23200989
 theme_override_fonts/font = ExtResource("3_f4mfi")
 theme_override_font_sizes/font_size = 32
 text = "全屏"
 
 [node name="About" type="Button" parent="." unique_id=151533339]
 modulate = Color(1, 1, 1, 0.43529412)
-layout_mode = 0
-offset_left = 910.0
-offset_top = 576.0
-offset_right = 1133.0
-offset_bottom = 629.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.79
+anchor_top = 0.88900006
+anchor_right = 0.984
+anchor_bottom = 0.9710001
+offset_left = -0.08001709
+offset_top = -0.072021484
+offset_right = -0.56799316
+offset_bottom = -0.20806885
 theme_override_font_sizes/font_size = 32
 text = "关于制作团队"
 script = ExtResource("4_83j8s")

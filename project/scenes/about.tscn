@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dsjukk8067vu1"]
 
 [ext_resource type="Script" uid="uid://dw8fy445uwjul" path="res://scripts/about1.gd" id="1_e46dr"]
-[ext_resource type="Texture2D" path="res://icon.svg" id="2_m04wf"]
+[ext_resource type="Texture2D" uid="uid://otcu2vi62ecj" path="res://icon.svg" id="2_m04wf"]
 [ext_resource type="Script" uid="uid://dj6gq1bqautof" path="res://scripts/back_to_settings.gd" id="3_e46dr"]
 [ext_resource type="Texture2D" uid="uid://bhs6j745ldfwr" path="res://assets/img/gplv3-with-text-136x68.png" id="4_e46dr"]
 [ext_resource type="Script" uid="uid://dpfmuubagys6p" path="res://scripts/open_web.gd" id="5_e46dr"]
@@ -19,11 +19,16 @@ grow_vertical = 2
 script = ExtResource("1_e46dr")
 
 [node name="Label" type="Label" parent="." unique_id=818061426]
-layout_mode = 0
-offset_left = 9.0
-offset_top = 9.0
-offset_right = 495.4759
-offset_bottom = 293.156
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.008
+anchor_top = 0.014
+anchor_right = 0.43
+anchor_bottom = 0.469
+offset_left = -0.21600056
+offset_top = -0.0720005
+offset_right = 0.115875244
+offset_bottom = -10.756012
 theme_override_font_sizes/font_size = 28
 text = "编剧 小硕道长
 程序 Yang458、FoxSix Game Studio
@@ -34,11 +39,16 @@ text = "编剧 小硕道长
 "
 
 [node name="Label2" type="Label" parent="." unique_id=1074763790]
-layout_mode = 0
-offset_left = 410.0
-offset_top = 10.0
-offset_right = 1304.0
-offset_bottom = 294.156
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.356
+anchor_top = 0.015000001
+anchor_right = 1.0860001
+anchor_bottom = 0.34100002
+offset_left = -0.11199951
+offset_top = 0.27999973
+offset_right = -0.072143555
+offset_bottom = 0.031982422
 theme_override_colors/font_color = Color(0.91227055, 4.7168137e-06, 6.738305e-07, 1)
 theme_override_font_sizes/font_size = 18
 text = "版权信息
@@ -48,52 +58,86 @@ text = "版权信息
 horizontal_alignment = 1
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1039972096]
-layout_mode = 0
-offset_left = 944.0
-offset_top = 443.0
-offset_right = 1129.0
-offset_bottom = 628.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.81900007
+anchor_top = 0.684
+anchor_right = 0.98
+anchor_bottom = 0.96900004
+offset_left = 0.51190186
+offset_top = -0.23199463
+offset_right = 3.040039
+offset_bottom = 5.0879517
 texture = ExtResource("2_m04wf")
 
 [node name="Button" type="Button" parent="." unique_id=930381860]
-layout_mode = 0
-offset_left = 16.0
-offset_top = 584.0
-offset_right = 180.0
-offset_bottom = 637.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.014
+anchor_top = 0.901
+anchor_right = 0.156
+anchor_bottom = 0.98300004
+offset_left = -0.12800026
+offset_top = 0.15197754
+offset_right = 0.28799438
+offset_bottom = 0.015991211
 theme_override_font_sizes/font_size = 32
 text = "返回"
 script = ExtResource("3_e46dr")
 
-[node name="Gplv3WithText136x68" type="Sprite2D" parent="." unique_id=1315067957]
-position = Vector2(823, 534)
+[node name="Gplv3WithText136x68" type="TextureRect" parent="." unique_id=1338216208]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.62600005
+anchor_top = 0.74200004
+anchor_right = 0.78800005
+anchor_bottom = 0.90000004
+offset_left = -0.15203857
+offset_top = 0.18395996
+offset_right = -50.776062
+offset_bottom = -34.200012
 scale = Vector2(1.375, 1.5)
 texture = ExtResource("4_e46dr")
 
 [node name="Button2" type="Button" parent="." unique_id=672332479]
-layout_mode = 0
-offset_left = 1053.0
-offset_top = 398.0
-offset_right = 1125.0
-offset_bottom = 429.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.91400003
+anchor_top = 0.614
+anchor_right = 0.97700006
+anchor_bottom = 0.66200006
+offset_left = 0.072021484
+offset_top = 0.12799072
+offset_right = -0.5040283
+offset_bottom = 0.023956299
 text = "项目仓库"
 script = ExtResource("5_e46dr")
 
 [node name="Button3" type="Button" parent="." unique_id=311893870]
-layout_mode = 0
-offset_left = 962.0
-offset_top = 398.0
-offset_right = 1050.0
-offset_bottom = 429.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.83500004
+anchor_top = 0.614
+anchor_right = 0.9110001
+anchor_bottom = 0.66200006
+offset_left = 0.079956055
+offset_top = 0.12799072
+offset_right = 0.5279541
+offset_bottom = 0.023956299
 text = "GPLv3原文"
 script = ExtResource("6_e46dr")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1653345536]
-layout_mode = 0
-offset_left = 664.0
-offset_top = 213.0
-offset_right = 1143.0
-offset_bottom = 394.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.57600003
+anchor_top = 0.32900003
+anchor_right = 0.99200004
+anchor_bottom = 0.60800004
+offset_left = 0.447937
+offset_top = -0.1920166
+offset_right = 0.21594238
+offset_bottom = 0.015960693
 vertical_scroll_mode = 2
 
 [node name="Label2" type="Label" parent="ScrollContainer" unique_id=1928796013]
@@ -802,19 +846,29 @@ horizontal_alignment = 1
 metadata/_edit_lock_ = true
 
 [node name="TextureRect2" type="TextureRect" parent="." unique_id=1130922854]
-layout_mode = 0
-offset_left = 3.0
-offset_top = 202.0
-offset_right = 405.0857
-offset_bottom = 412.6049
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.003
+anchor_top = 0.312
+anchor_right = 0.35200003
+anchor_bottom = 0.637
+offset_left = -0.4560001
+offset_top = -0.17601013
+offset_right = -0.41833496
+offset_bottom = -0.17111206
 texture = ExtResource("7_e46dr")
 expand_mode = 1
 
 [node name="TextureRect3" type="TextureRect" parent="." unique_id=1363574633]
-layout_mode = 0
-offset_left = -36.0
-offset_top = 317.0
-offset_right = 411.0
-offset_bottom = 570.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.031000001
+anchor_top = 0.48900002
+anchor_right = 0.35700002
+anchor_bottom = 0.88000005
+offset_left = -0.2879982
+offset_top = 0.12799072
+offset_right = -0.2640381
+offset_bottom = -0.24005127
 texture = ExtResource("8_m04wf")
 expand_mode = 1
