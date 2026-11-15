@@ -9,8 +9,8 @@
 
 > [!WARNING]
 >
-> 本项目很可能即将迎来破坏性变更（Breaking change）！<br>
-> This project is likely to undergo breaking changes!
+> 本项目正在进行破坏性变更（Breaking change）！游戏暂时不可玩！<br>
+> This project involves breaking changes! The game is currently unplayable！
 # 《日常侵蚀 灵蚀楼》Godot重构版项目
 > 本仓库作者于 2026年8月30日 与原作者达成合作，本仓库被授权为官方 Godot 重构版。
 
