@@ -1,0 +1,14 @@
+UI_START = 开始游戏
+UI_LOAD = 读档
+UI_SETTINGS = 设置
+UI_EXIT = 退出
+UI_SETTINGS_VOLUME = 音量
+UI_SETTINGS_FULLSCREEN = 全屏
+UI_BACK = 返回
+UI_ABOUT_TEAM = 关于制作团队
+UI_LANGUAGE_CHOOSE = 语言
+UI_BACK = 返回
+UI_LICENSE_BTN = GPLv3原文
+UI_REPO_BTN = 项目仓库
+ABOUT_CREDITS = 编剧 小硕道长\n程序 Yang458、FoxSix Game Studio\n发行 Rwrench Games\n美术 小硕道长\n引擎 Godot Engine\n配音 沈怀意（饰 张念宁）
+ABOUT_COPYRIGHT = 美术资源: Copyright © 2026 小硕道长 All Rights Reserved.\n程序代码: GNU General Public License v3.0 (详见根目录 LICENSE 文件)\n引擎: Made with Godot Engine (MIT License)

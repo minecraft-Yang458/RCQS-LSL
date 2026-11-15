@@ -2,11 +2,8 @@
 
 [ext_resource type="Script" uid="uid://bngtdd0dg87js" path="res://scripts/main.gd" id="1_tipki"]
 [ext_resource type="Texture2D" uid="uid://c7p8n4kmsdqo7" path="res://assets/img/A223A4C85B0C236E1A8F91FC4B58BADE.jpg" id="2_85g3d"]
-[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/fonts/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_tipki"]
-[ext_resource type="Script" uid="uid://ddfi7toijytcd" path="res://scripts/settings.gd" id="4_tipki"]
-[ext_resource type="Script" uid="uid://b4q5vym0jwg4r" path="res://scripts/button_settings.gd" id="5_eb6dy"]
+[ext_resource type="FontVariation" uid="uid://dd28i0s1ljxc4" path="res://assets/fonts/font_variation.tres" id="3_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://assets/img/b.png" id="6_trceg"]
-[ext_resource type="Script" uid="uid://de15asb86mmoi" path="res://scripts/start_game.gd" id="7_tipki"]
 [ext_resource type="Texture2D" uid="uid://bk2sxuvlghytj" path="res://assets/img/7C1646EF6445F86DA040C9F74329F014.png" id="8_tipki"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jb02w"]
@@ -44,10 +41,9 @@ offset_left = -0.47201538
 offset_top = -0.2000122
 offset_right = -0.2720337
 offset_bottom = -0.15203857
-theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_fonts/font = ExtResource("3_tbgi4")
 theme_override_font_sizes/font_size = 32
 text = "退出"
-script = ExtResource("4_tipki")
 
 [node name="Button_settings" type="Button" parent="." unique_id=676174033]
 layout_mode = 1
@@ -60,10 +56,9 @@ offset_left = -0.32000732
 offset_top = 0.28799438
 offset_right = -0.11999512
 offset_bottom = -0.31204224
-theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_fonts/font = ExtResource("3_tbgi4")
 theme_override_font_sizes/font_size = 32
 text = "设置"
-script = ExtResource("5_eb6dy")
 
 [node name="Button_s" type="Button" parent="." unique_id=1713334698]
 layout_mode = 1
@@ -77,7 +72,7 @@ offset_top = 0.07199097
 offset_right = -0.2720337
 offset_bottom = 0.1199646
 tooltip_text = "开发中"
-theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_fonts/font = ExtResource("3_tbgi4")
 theme_override_font_sizes/font_size = 32
 disabled = true
 text = "读档"
@@ -126,10 +121,9 @@ offset_left = 0.13598633
 offset_top = -0.088012695
 offset_right = -0.2720337
 offset_bottom = 0.25598145
-theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_fonts/font = ExtResource("3_tbgi4")
 theme_override_font_sizes/font_size = 32
 text = "开始游戏"
-script = ExtResource("7_tipki")
 
 [node name="TextureRect2" type="TextureRect" parent="." unique_id=547828285]
 layout_mode = 1

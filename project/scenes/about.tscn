@@ -102,28 +102,28 @@ texture = ExtResource("4_e46dr")
 [node name="Button2" type="Button" parent="." unique_id=672332479]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.91400003
+anchor_left = 0.883
 anchor_top = 0.614
 anchor_right = 0.97700006
-anchor_bottom = 0.66200006
-offset_left = 0.072021484
-offset_top = 0.12799072
-offset_right = -0.5040283
-offset_bottom = 0.023956299
+anchor_bottom = 0.66400003
+offset_left = -0.21600342
+offset_top = 1.1279907
+offset_right = 1.4959717
+offset_bottom = -0.2720337
 text = "项目仓库"
 script = ExtResource("5_e46dr")
 
 [node name="Button3" type="Button" parent="." unique_id=311893870]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.83500004
+anchor_left = 0.772
 anchor_top = 0.614
-anchor_right = 0.9110001
-anchor_bottom = 0.66200006
-offset_left = 0.079956055
-offset_top = 0.12799072
-offset_right = 0.5279541
-offset_bottom = 0.023956299
+anchor_right = 0.88100004
+anchor_bottom = 0.66400003
+offset_left = -0.34399414
+offset_top = 1.1279907
+offset_right = 0.08795166
+offset_bottom = -0.2720337
 text = "GPLv3原文"
 script = ExtResource("6_e46dr")
 
@@ -140,7 +140,7 @@ offset_right = 0.21594238
 offset_bottom = 0.015960693
 vertical_scroll_mode = 2
 
-[node name="Label2" type="Label" parent="ScrollContainer" unique_id=1928796013]
+[node name="Label3" type="Label" parent="ScrollContainer" unique_id=1928796013]
 layout_mode = 2
 theme_override_font_sizes/font_size = 11
 text = "                    GNU GENERAL PUBLIC LICENSE

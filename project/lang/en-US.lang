@@ -1,0 +1,14 @@
+UI_START = Start Game
+UI_LOAD = Load Game
+UI_SETTINGS = Settings
+UI_EXIT = Exit
+UI_SETTINGS_VOLUME = Volume
+UI_SETTINGS_FULLSCREEN = Fullscreen
+UI_BACK = Back
+UI_ABOUT_TEAM = About the Team
+UI_LANGUAGE_CHOOSE = Language
+UI_BACK = Back
+UI_LICENSE_BTN = GPLv3 Text
+UI_REPO_BTN = Repository
+ABOUT_CREDITS = Writer: Xiaoshuo Daozhang\nCode: Yang458, FoxSix Game Studio\nPublisher: Rwrench Games\nArt: Xiaoshuo Daozhang\nEngine: Godot Engine\nVoice: Shen Huaiyi (as Zhang Nianning)
+ABOUT_COPYRIGHT = Art Assets: Copyright © 2026 Xiaoshuo Daozhang All Rights Reserved.\nCode: GNU General Public License v3.0 (See LICENSE file)\nEngine: Made with Godot Engine (MIT License)

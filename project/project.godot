@@ -24,6 +24,7 @@ driver/output_latency=50
 
 SettingsManager="*uid://bp8jtkrk0v4ua"
 pause_menu="*uid://d3gpohxlbhsg0"
+LocalizationManager="*uid://djy4inr6pu2li"
 
 [display]
 

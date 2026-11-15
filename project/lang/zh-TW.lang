@@ -1,0 +1,13 @@
+UI_START = 開始遊戲
+UI_LOAD = 讀檔
+UI_SETTINGS = 設定
+UI_EXIT = 退出
+UI_SETTINGS_VOLUME = 音量
+UI_SETTINGS_FULLSCREEN = 全螢幕
+UI_BACK = 返回
+UI_ABOUT_TEAM = 關於製作團隊
+UI_LANGUAGE_CHOOSE = 語言
+UI_LICENSE_BTN = GPLv3原文
+UI_REPO_BTN = 專案倉庫
+ABOUT_CREDITS = 編劇 小碩道長\n程式 Yang458、FoxSix Game Studio\n發行 Rwrench Games\n美術 小碩道長\n引擎 Godot Engine\n配音 沈懷意（飾 張念寧）
+ABOUT_COPYRIGHT = 美術資源: Copyright © 2026 小碩道長 All Rights Reserved.\n程式代碼: GNU General Public License v3.0 (詳見根目錄 LICENSE 文件)\n引擎: Made with Godot Engine (MIT License)

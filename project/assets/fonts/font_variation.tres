@@ -1,0 +1,8 @@
+[gd_resource type="FontVariation" format=3 uid="uid://dd28i0s1ljxc4"]
+
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/fonts/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="1_vu5kt"]
+[ext_resource type="FontFile" uid="uid://djfvvw0k4jsy1" path="res://assets/fonts/站酷庆科黄油体.ttf" id="2_vqw12"]
+
+[resource]
+fallbacks = Array[Font]([ExtResource("2_vqw12")])
+base_font = ExtResource("1_vu5kt")

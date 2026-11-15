@@ -1,8 +1,7 @@
 [gd_scene format=3 uid="uid://oelpgcabjyg6"]
 
 [ext_resource type="Script" uid="uid://ifhjpqukgmpy" path="res://scripts/settings1.gd" id="1_f4mfi"]
-[ext_resource type="Script" uid="uid://cvgr2dcrughaa" path="res://scripts/menu_button.gd" id="2_es4n0"]
-[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/fonts/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_f4mfi"]
+[ext_resource type="FontVariation" uid="uid://dd28i0s1ljxc4" path="res://assets/fonts/font_variation.tres" id="2_6wm04"]
 [ext_resource type="Script" uid="uid://cp6eohak8dw40" path="res://scripts/about.gd" id="4_83j8s"]
 
 [node name="Control" type="Control" unique_id=1583292962]
@@ -11,6 +10,10 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = -2.0
+offset_right = 1.0
+offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_f4mfi")
@@ -30,7 +33,6 @@ offset_bottom = 0.14398193
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 32
 text = "返回"
-script = ExtResource("2_es4n0")
 
 [node name="Label" type="Label" parent="." unique_id=269873464]
 layout_mode = 1
@@ -41,23 +43,23 @@ anchor_right = 0.086
 anchor_bottom = 0.105000004
 offset_left = 0.43999863
 offset_top = 0.3199997
-offset_right = -0.072006226
+offset_right = 3.9279938
 offset_bottom = -0.040000916
-theme_override_fonts/font = ExtResource("3_f4mfi")
+theme_override_fonts/font = ExtResource("2_6wm04")
 theme_override_font_sizes/font_size = 32
 text = "音量"
 
 [node name="MasterSlider" type="HSlider" parent="." unique_id=1229081321]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.11800001
-anchor_top = 0.043
-anchor_right = 0.44400004
-anchor_bottom = 0.096
-offset_left = 0.06399536
-offset_top = 0.13599968
-offset_right = 0.08190918
-offset_bottom = 0.2720108
+anchor_left = 0.172
+anchor_top = 0.042000003
+anchor_right = 0.49800003
+anchor_bottom = 0.095000006
+offset_left = -2.1440125
+offset_top = -0.21600151
+offset_right = -2.1260986
+offset_bottom = -0.0799942
 value = 50.0
 ticks_on_borders = true
 
@@ -66,13 +68,13 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.023000002
 anchor_top = 0.102000006
-anchor_right = 0.155
+anchor_right = 0.201
 anchor_bottom = 0.18400002
 offset_left = 0.5039978
 offset_top = -0.09600067
-offset_right = -0.55999756
+offset_right = 0.44799805
 offset_bottom = -0.23200989
-theme_override_fonts/font = ExtResource("3_f4mfi")
+theme_override_fonts/font = ExtResource("2_6wm04")
 theme_override_font_sizes/font_size = 32
 text = "全屏"
 
@@ -80,14 +82,41 @@ text = "全屏"
 modulate = Color(1, 1, 1, 0.43529412)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.79
+anchor_left = 0.77400005
 anchor_top = 0.88900006
-anchor_right = 0.984
+anchor_right = 0.96800005
 anchor_bottom = 0.9710001
-offset_left = -0.08001709
+offset_left = 0.3519287
 offset_top = -0.072021484
-offset_right = -0.56799316
+offset_right = 29.863892
 offset_bottom = -0.20806885
 theme_override_font_sizes/font_size = 32
 text = "关于制作团队"
 script = ExtResource("4_83j8s")
+
+[node name="LanguageDropdown" type="OptionButton" parent="." unique_id=1255910692]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.17
+anchor_top = 0.194
+anchor_right = 0.43100002
+anchor_bottom = 0.25300002
+offset_left = 0.16000366
+offset_top = 0.28799438
+offset_right = -0.5120239
+offset_bottom = 0.055984497
+
+[node name="Language" type="Label" parent="." unique_id=1260886887]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.030000001
+anchor_top = 0.19600001
+anchor_right = 0.085
+anchor_bottom = 0.24700001
+offset_left = -0.5600014
+offset_top = -0.008003235
+offset_right = 0.08000183
+offset_bottom = -0.055999756
+theme_override_fonts/font = ExtResource("2_6wm04")
+theme_override_font_sizes/font_size = 32
+text = "语言"
