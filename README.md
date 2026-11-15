@@ -6,11 +6,16 @@
 > 
 > 2. **开发工作将由新成立的 FoxSix Game Studio 继续进行，而非原来的 Yang458（虽然只是换个名...）。**
 >    <br>*The development will now be handled by the newly established FoxSix Game Studio instead of Yang458. (Even though it's basically just a rebranding...)*
+
+> [!WARNING]
+>
+> 本项目很可能即将迎来破坏性变更（Breaking change）！<br>
+> This project is likely to undergo breaking changes!
 # 《日常侵蚀 灵蚀楼》Godot重构版项目
 > 本仓库作者于 2026年8月30日 与原作者达成合作，本仓库被授权为官方 Godot 重构版。
 
 ![Godot Engine](https://img.shields.io/badge/Godot-4.7.2-478CBF?logo=godotengine&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-语言-478CBF)
+![GDScript](https://img.shields.io/badge/语言-GDScript-478CBF)
 ![平台](https://img.shields.io/badge/平台-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android%20%7C%20iOS-blue)<br>
 [![代码许可证: GPLv3](https://img.shields.io/badge/代码许可证-GPLv3-green.svg?style=flat)](https://www.gnu.org/licenses/gpl-3.0.html)
 ![美术及其他资源许可证: All rights reserved](https://img.shields.io/badge/美术及其他资源-All%20rights%20reserved-orange.svg?style=flat)
@@ -22,7 +27,7 @@
 > 
 > 本程序是**混合许可证**！  
 > **代码**遵循 **GNU General Public License v3.0**，美术及其他资源为 **All Rights Reserved**（保留所有权利）。  
-> 这意味着：您**可以**自由使用、修改、分发本项目的**代码**，但**必须**开源您的修改，且**不得**用于闭源商业项目。
+> 这意味着：您**可以**自由使用、修改、分发本项目的**代码**，但**必须**开源您的修改。
 > <br>*本项目中的字体站酷快乐体是个例外，遵循SIL Open Font License。
 
 > [!IMPORTANT]
