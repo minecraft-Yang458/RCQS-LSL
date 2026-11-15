@@ -1,0 +1,117 @@
+[gd_scene format=3 uid="uid://cf1bnvrocd2kn"]
+
+[ext_resource type="Script" uid="uid://bngtdd0dg87js" path="res://scripts/main.gd" id="1_tipki"]
+[ext_resource type="Texture2D" uid="uid://c7p8n4kmsdqo7" path="res://assets/img/A223A4C85B0C236E1A8F91FC4B58BADE.jpg" id="2_85g3d"]
+[ext_resource type="FontFile" uid="uid://c6wi3i6jnhc1e" path="res://assets/fonts/ZhanKuKuaiLeTi2016XiuDingBan-1.ttf" id="3_tipki"]
+[ext_resource type="Script" uid="uid://ddfi7toijytcd" path="res://scripts/settings.gd" id="4_tipki"]
+[ext_resource type="Script" uid="uid://b4q5vym0jwg4r" path="res://scripts/button_settings.gd" id="5_eb6dy"]
+[ext_resource type="Texture2D" uid="uid://fk0jttys80oo" path="res://assets/img/b.png" id="6_trceg"]
+[ext_resource type="Script" uid="uid://de15asb86mmoi" path="res://scripts/start_game.gd" id="7_tipki"]
+[ext_resource type="Texture2D" uid="uid://bk2sxuvlghytj" path="res://assets/img/7C1646EF6445F86DA040C9F74329F014.png" id="8_tipki"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_jb02w"]
+texture = ExtResource("6_trceg")
+modulate_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control" unique_id=264836974]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_tipki")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1329624678]
+layout_mode = 0
+offset_left = -2.0
+offset_right = 1158.0
+offset_bottom = 654.0
+texture = ExtResource("2_85g3d")
+expand_mode = 1
+
+[node name="Button_exit" type="Button" parent="." unique_id=1811609968]
+layout_mode = 0
+offset_left = 185.0
+offset_top = 502.0
+offset_right = 358.0
+offset_bottom = 550.0
+theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_font_sizes/font_size = 32
+text = "退出"
+script = ExtResource("4_tipki")
+
+[node name="Button_settings" type="Button" parent="." unique_id=676174033]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 450.0
+offset_right = 357.0
+offset_bottom = 498.0
+theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_font_sizes/font_size = 32
+text = "设置"
+script = ExtResource("5_eb6dy")
+
+[node name="Button_s" type="Button" parent="." unique_id=1713334698]
+layout_mode = 0
+offset_left = 185.0
+offset_top = 396.0
+offset_right = 358.0
+offset_bottom = 444.0
+tooltip_text = "开发中"
+theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_font_sizes/font_size = 32
+disabled = true
+text = "读档"
+
+[node name="Label2" type="Label" parent="." unique_id=1233561185]
+modulate = Color(0.46666667, 0.46666667, 0.46666667, 1)
+layout_mode = 0
+offset_left = 5.0
+offset_top = 623.0
+offset_right = 596.0
+offset_bottom = 666.0
+theme_override_font_sizes/font_size = 14
+text = "Copyright (C) 2026 FoxSix Game Studio & Rwrench Games. | Follow the GPLv3 License.
+"
+
+[node name="Label" type="Label" parent="." unique_id=1334636322]
+layout_mode = 0
+offset_left = 876.0
+offset_top = 619.0
+offset_right = 1164.0
+offset_bottom = 660.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxTexture_jb02w")
+text = "v0.1.3-Alpha[gd.d.26.11.15.y]"
+
+[node name="Button_start" type="Button" parent="." unique_id=2019013647]
+layout_mode = 0
+offset_left = 181.0
+offset_top = 344.0
+offset_right = 358.0
+offset_bottom = 391.0
+theme_override_fonts/font = ExtResource("3_tipki")
+theme_override_font_sizes/font_size = 32
+text = "开始游戏"
+script = ExtResource("7_tipki")
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=547828285]
+layout_mode = 0
+offset_left = 51.0
+offset_top = -56.0
+offset_right = 639.0
+offset_bottom = 349.0
+texture = ExtResource("8_tipki")
+expand_mode = 1
+
+[node name="Label3" type="Label" parent="." unique_id=19618246]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 5.0
+offset_top = 583.0
+offset_right = 842.0
+offset_bottom = 627.0
+theme_override_font_sizes/font_size = 12
+text = "Exclusively available on Steam. If you purchased through other channels, please request a refund and report it immediately.
+仅在 Steam 独家发售。若您通过其他渠道购买，请立即退款并举报。"
